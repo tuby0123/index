@@ -1,0 +1,67 @@
+/* 전체 기본 설정 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* 작성 버튼 */
+#showWriteBox {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 작성 박스 */
+#writeBox {
+    margin-top: 15px;
+}
+
+/* 게시글 박스 */
+.post {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* 게시글 내용 */
+.post > p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* 댓글 리스트 영역 */
+.comments {
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+
+/* 댓글 하나 */
+.comments p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* 댓글 입력창 */
+.commentInput {
+    width: calc(100% - 110px);
+    padding: 6px 8px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+/* 댓글 제출 버튼 */
+.commentSubmit {
+    padding: 7px 12px;
+    margin-left: 8px
+}
